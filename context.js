@@ -20,8 +20,13 @@
   
 
 //Code Here
-
-
+const user = {
+  username: "",
+  email: "",
+  getUsername: function(){
+    return this.username
+  }
+}
 
 ////////// PROBLEM 2 //////////
 
@@ -40,8 +45,7 @@ class Animal {
     return this.name + ' is a ' + this.species + ' and likes to eat ' + this.food;
   }
 }
-
-//Code Here
+const animal1 = new Animal("Ellie", "Elephant", "Peanuts")
 
 
 
@@ -61,9 +65,7 @@ let who = {
   location: 'Belize'
 }
 
-//Code Here
-
-
+whoSaysHi = sayHi.bind(who)
 
 ////////// PROBLEM 4 //////////
 
