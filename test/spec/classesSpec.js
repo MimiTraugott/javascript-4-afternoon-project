@@ -16,6 +16,8 @@ describe('Classes', function () {
     it('can make a widget', function () {
       let emp = new Employee("Dallin", "Anderson", "Dallin@DallinDallin.com", 25)
       let result = emp.makeWidget()
+      console.log(result);
+      
 
       expect(result).toEqual("Dallin Anderson Widget")
     })
